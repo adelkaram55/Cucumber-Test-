@@ -8,46 +8,46 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 3,
-  "name": "Login functionality exists",
+  "name": "Google search functionality",
   "description": "",
-  "id": "cucumberjava;login-functionality-exists",
+  "id": "cucumberjava;google-search-functionality",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
-  "name": "I have open the browser",
+  "name": "User opens the browser",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "I open Facebook website",
+  "name": "User inserts text within search and selects enter",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "Login button should exits",
+  "name": "Google search should directs me to result page",
   "keyword": "Then "
 });
 formatter.match({
   "location": "CucumberJava.openBrowser()"
 });
 formatter.result({
-  "duration": 9098091015,
+  "duration": 15536360772,
   "status": "passed"
 });
 formatter.match({
   "location": "CucumberJava.goToFacebook()"
 });
 formatter.result({
-  "duration": 5091741093,
+  "duration": 5668198995,
   "status": "passed"
 });
 formatter.match({
   "location": "CucumberJava.loginButton()"
 });
 formatter.result({
-  "duration": 5284906853,
+  "duration": 5031112073,
   "status": "passed"
 });
 });

@@ -1,9 +1,9 @@
 Feature: CucumberJava
 
-Scenario: Login functionality exists
+Scenario: Google search functionality
 
-Given I have open the browser
+Given User opens the browser
 
-When I open Facebook website
+When User inserts text within search and selects enter
 
-Then Login button should exits
+Then Google search should directs me to result page 

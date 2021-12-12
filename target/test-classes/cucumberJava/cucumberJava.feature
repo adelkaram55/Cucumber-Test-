@@ -1,6 +1,6 @@
-Feature: CucumberJava
+Feature: Search feature
 
-Scenario: Google search functionality
+Scenario: Verify when the user inserts text within the search field and selects enter then he directs to result page 
 
 Given User opens the browser
 
